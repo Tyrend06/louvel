@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Louvel | Filosofische vragen, gedrukt als krant</title>
+  <meta name="description" content="Louvel is een platform met filosofische vraagstukken in de vorm van een krant, en events waar je ze samen bespreekt.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+  <header id="site-header"></header>
+
+  <main id="inhoud">
+    <section class="hero">
+      <div class="hero__orb hero__orb--a" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--b" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--c" aria-hidden="true"></div>
+      <svg class="hero__hills" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 120 C 240 40 420 60 640 110 S 1100 190 1440 90 L1440 220 L0 220 Z" fill="#56704f" fill-opacity="0.14"/>
+        <path d="M0 160 C 300 110 520 150 760 170 S 1200 130 1440 160 L1440 220 L0 220 Z" fill="#3d5337" fill-opacity="0.2"/>
+      </svg>
+
+      <div class="wrap">
+        <h1 class="hero__title">Louvel</h1>
+        <p class="hero__lead">Filosofische vragen om bij te lezen, en avonden om ze samen te bespreken.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="krant.html">Lees de krant</a>
+          <a class="btn btn--ghost" href="events.html">Bekijk de events</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="section__title">Nieuw in de krant</h2>
+          <a class="text-link" href="krant.html">Alle artikelen</a>
+        </div>
+        <div class="front" id="home-articles"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="section__title">Eerstvolgende event</h2>
+        </div>
+        <div id="home-event"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="wrap">
+        <div class="about">
+          <h2 class="section__title">Wat is Louvel?</h2>
+          <p>Louvel is een plek voor filosofische vragen. In de krant lees je korte stukken over vragen die iedereen kent maar waar zelden tijd voor is: is vrije wil een illusie, wat maakt een leven goed, ben je nog dezelfde als tien jaar geleden?</p>
+          <p>Op onze events denk je er samen over na, aan tafel, onderweg of in een zaal. Je hoeft niets te weten van filosofie. Een vraag is genoeg.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/site.js"></script>
+  <script src="data/articles.js"></script>
+  <script src="data/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

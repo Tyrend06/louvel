@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Louvel</title>
+  <meta name="description" content="Neem contact op met Louvel voor vragen, problemen of een samenwerking rond events.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+  <header id="site-header"></header>
+
+  <main id="inhoud">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-head__title">Contact</h1>
+        <p class="page-head__lead">Heb je een vraag, loopt er iets niet goed op de site, of wil je met je bedrijf samenwerken rond een event? Laat het ons weten.</p>
+      </div>
+
+      <div class="contact-layout">
+        <form class="form" id="contact-form" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="naam">Naam</label>
+              <input id="naam" name="naam" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mailadres</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="organisatie">Bedrijf of organisatie <span class="field__hint">(optioneel)</span></label>
+            <input id="organisatie" name="organisatie" type="text" autocomplete="organization">
+          </div>
+
+          <div class="field">
+            <label for="onderwerp">Waar gaat je bericht over?</label>
+            <select id="onderwerp" name="onderwerp" required>
+              <option value="">Kies een onderwerp</option>
+              <option>Samenwerking rond een event</option>
+              <option>Vraag over een event</option>
+              <option>Probleem met de website</option>
+              <option>Iets anders</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="bericht">Bericht</label>
+            <textarea id="bericht" name="bericht" required></textarea>
+          </div>
+
+          <div class="form__trap" aria-hidden="true">
+            <label for="website">Laat dit veld leeg</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div>
+            <button class="btn btn--primary" type="submit">Verstuur bericht</button>
+          </div>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+
+        <aside class="contact-card" aria-label="Andere manieren om contact op te nemen">
+          <h2>Liever direct contact?</h2>
+          <dl>
+            <dt>Instagram</dt>
+            <dd><a id="contact-ig" href="https://www.instagram.com/louismondria/" target="_blank" rel="noopener">@louismondria</a></dd>
+            <dt>Telefoon</dt>
+            <dd><a id="contact-tel" href="tel:0611785118">06 11 78 51 18</a></dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/site.js"></script>
+  <script src="data/articles.js"></script>
+  <script src="data/events.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Houdt de contactgegevens in het zijpaneel gelijk aan data/site.js
+    (function () {
+      var s = window.LOUVEL_SITE;
+      var ig = document.getElementById("contact-ig");
+      var tel = document.getElementById("contact-tel");
+      ig.href = s.instagram; ig.textContent = s.instagramHandle;
+      tel.href = "tel:" + s.phone; tel.textContent = s.phoneDisplay;
+    })();
+  </script>
+</body>
+</html>

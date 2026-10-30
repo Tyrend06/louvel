@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Een pad dat zich splitst in drie paden">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbc3ec"/><stop offset=".62" stop-color="#e9dfe8"/><stop offset="1" stop-color="#f3e4c4"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3d5337"/><stop offset="1" stop-color="#3d5337" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="600" cy="330" r="300" fill="url(#glow)"/>
+  <path d="M0 640 C 220 560 420 600 620 650 S 1000 700 1200 600 L1200 900 L0 900 Z" fill="#56704f" fill-opacity=".22"/>
+  <path d="M0 740 C 260 690 520 730 760 760 S 1060 760 1200 720 L1200 900 L0 900 Z" fill="#3d5337" fill-opacity=".35"/>
+  <g fill="none" stroke="url(#path)" stroke-width="22" stroke-linecap="round">
+    <path d="M600 900 C 600 800 590 740 580 690"/>
+    <path d="M580 690 C 560 620 470 580 400 470 C 360 410 350 350 360 280"/>
+    <path d="M580 690 C 590 600 600 520 600 430 C 600 360 600 320 600 250"/>
+    <path d="M580 690 C 620 620 730 590 800 480 C 840 420 850 350 840 290"/>
+  </g>
+</svg>

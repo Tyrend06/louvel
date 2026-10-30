@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Twee lichtende bollen die elkaar bijna raken">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bdb3e6"/><stop offset=".6" stop-color="#e6dcee"/><stop offset="1" stop-color="#f3e4c4"/>
+    </linearGradient>
+    <radialGradient id="a"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#e5defa" stop-opacity=".95"/><stop offset="1" stop-color="#cbc3ec" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b"><stop offset="0" stop-color="#fffaf0"/><stop offset=".3" stop-color="#f7e8c9" stop-opacity=".95"/><stop offset="1" stop-color="#f3e4c4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="470" cy="440" r="300" fill="url(#a)"/>
+  <circle cx="760" cy="470" r="280" fill="url(#b)"/>
+  <circle cx="470" cy="440" r="64" fill="#fff"/>
+  <circle cx="760" cy="470" r="58" fill="#fffaf0"/>
+  <path d="M0 780 C 300 730 520 790 760 800 S 1100 770 1200 760 L1200 900 L0 900 Z" fill="#56704f" fill-opacity=".45"/>
+  <path d="M0 840 C 300 810 600 850 900 845 S 1120 830 1200 825 L1200 900 L0 900 Z" fill="#3d5337" fill-opacity=".7"/>
+</svg>

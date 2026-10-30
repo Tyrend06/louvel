@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Zon boven heuvels">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbc3ec"/><stop offset=".5" stop-color="#f1dfd6"/><stop offset="1" stop-color="#f3e4c4"/>
+    </linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#fffaf0"/><stop offset=".35" stop-color="#fff3d6" stop-opacity=".9"/><stop offset="1" stop-color="#fff3d6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="600" cy="480" r="380" fill="url(#sun)"/>
+  <circle cx="600" cy="480" r="95" fill="#fffaf0"/>
+  <path d="M0 560 C 200 480 380 520 560 580 S 980 600 1200 500 L1200 900 L0 900 Z" fill="#8fa884" fill-opacity=".55"/>
+  <path d="M0 650 C 260 590 480 650 700 670 S 1040 640 1200 610 L1200 900 L0 900 Z" fill="#56704f" fill-opacity=".7"/>
+  <path d="M0 770 C 300 720 560 780 800 790 S 1100 760 1200 750 L1200 900 L0 900 Z" fill="#3d5337"/>
+</svg>

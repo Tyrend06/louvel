@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Een schip dat oplost in mist">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9d3f0"/><stop offset=".55" stop-color="#eef0f1"/><stop offset="1" stop-color="#f3e4c4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ba0b3" stop-opacity=".55"/><stop offset="1" stop-color="#3d5337" stop-opacity=".45"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1e2a35" stop-opacity=".9"/><stop offset=".55" stop-color="#1e2a35" stop-opacity=".45"/><stop offset="1" stop-color="#1e2a35" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="820" cy="300" r="240" fill="url(#glow)"/>
+  <rect y="560" width="1200" height="340" fill="url(#sea)"/>
+  <g fill="url(#fade)">
+    <path d="M250 560 L950 560 C 900 640 800 670 600 670 C 400 670 300 640 250 560 Z"/>
+    <rect x="590" y="250" width="14" height="310"/>
+    <path d="M610 270 C 760 320 800 430 810 540 L610 540 Z"/>
+    <path d="M582 300 C 480 340 450 430 440 540 L582 540 Z"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3" stroke-linecap="round">
+    <path d="M200 720 C 300 700 380 740 480 720"/>
+    <path d="M700 760 C 800 740 900 780 1000 750"/>
+    <path d="M360 800 C 440 785 520 815 600 795"/>
+  </g>
+</svg>

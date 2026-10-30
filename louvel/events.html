@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Events | Louvel</title>
+  <meta name="description" content="Alle aankomende Louvel-events met tijd, locatie en beschrijving, plus een agenda.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="events">
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+  <header id="site-header"></header>
+
+  <main id="inhoud">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-head__title">Events</h1>
+        <p class="page-head__lead">Hier vind je alle bijeenkomsten die we organiseren. Kies een dag in de agenda of scroll door de lijst.</p>
+      </div>
+
+      <div class="events-layout">
+        <section aria-labelledby="aankomend">
+          <h2 class="visually-hidden" id="aankomend">Aankomende events</h2>
+          <div id="event-list"></div>
+          <div id="past-events"></div>
+        </section>
+
+        <aside class="events-aside" aria-label="Agenda">
+          <div class="calendar" id="calendar"></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/site.js"></script>
+  <script src="data/articles.js"></script>
+  <script src="data/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
