@@ -89,7 +89,7 @@
   function renderChrome() {
     var links = [
       { page: "home", href: "index.html", label: "Home" },
-      { page: "krant", href: "krant.html", label: "De Krant" },
+      { page: "krant", href: "krant.html", label: "Artikelen" },
       { page: "events", href: "events.html", label: "Events" },
       { page: "contact", href: "contact.html", label: "Contact" }
     ];
