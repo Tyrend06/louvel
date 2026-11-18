@@ -1,4 +1,4 @@
-# Louvel website
+w# Louvel website
 
 Een website voor Louvel: een platform met filosofische vraagstukken in de vorm van een krant, plus events met een agenda en een contactpagina.
 
